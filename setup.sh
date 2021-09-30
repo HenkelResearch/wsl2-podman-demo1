@@ -13,6 +13,10 @@
 #Install Linux VM wsl --install -d Ubuntu
 #**WSL INSTALL**
 
+#**CLONE REPO**
+git clone https://github.com/HenkelResearch/wsl2-podman-demo1.git
+cd wsl2-podman-demo1
+#**CLONE REPO**
 
 #**Ubuntu podman install per https://podman.io/getting-started/installation.html**
 apt-get update -y
