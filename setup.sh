@@ -37,3 +37,7 @@ podman info
 #**CLEAN UP WSL VM**
 #wsl --unregister Ubuntu
 #**CLEAN UP WSL VM**
+
+#**GENERAL NOTES
+#To access your WSL vm files that are inside a linu vm you can open file explorer and go to \\wsl$
+#**GENERAL NOTES
