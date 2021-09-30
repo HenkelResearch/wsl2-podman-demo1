@@ -26,16 +26,9 @@ echo "deb https://download.opensuse.org/repositories/devel:/kubic:/libcontainers
 curl -L "https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/Release.key" | sudo apt-key add -
 sudo apt-get update
 sudo apt-get -y upgrade
-sudo apt-get -y install podman python3-pip podman-compose
+sudo apt-get -y install podman python3-pip
 
-# apt-get install curl wget gnupg -y
-
-# source /etc/os-release
-# sh -c "echo 'deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /' > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
-# wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_${VERSION_ID}/Release.key -O- | apt-key add -
-
-# apt-get update -qq -y
-# apt-get -qq --yes install podman
+pip3 install podman-compose
 
 podman --version
 podman info
