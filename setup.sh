@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#**WINDOWS TERMINAL INSTALL**
+#https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab
+#**WINDOWS TERMINAL INSTALL**
+
 #**WSL INSTALL per https://docs.microsoft.com/en-us/windows/wsl/install**
 #You must be running Windows 10 version 2004 and higher (Build 19041 and higher) or Windows 11.
 #To check your version you can select Windows logo key + R, type winver, select OK
